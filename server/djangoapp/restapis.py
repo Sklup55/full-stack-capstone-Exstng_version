@@ -28,7 +28,7 @@ def get_request(url, **kwargs):
 
 
 def post_request(url, json_payload, **kwargs):
-    url =  "https://ksundararaja-5000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/api/post_review"
+    url =  "https://daniak-5000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/api/post_review"
     response = requests.post(url, params=kwargs, json=json_payload)
     return response
 
